@@ -1,0 +1,62 @@
+.App {
+  margin: 50px;
+}
+
+.login {
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.text-field {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.event-item {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+}
+
+.event-type, .event-repo-name, .event-repo-link {
+  width: 33%;
+  display: inline-block;
+}
+
+.event-type {
+  float: left;
+  text-align: left;
+}
+
+.event-repo-link {
+  float: right;
+  text-align: right;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 200px;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
