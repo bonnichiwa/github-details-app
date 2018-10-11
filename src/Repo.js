@@ -6,7 +6,7 @@ class Repo extends React.Component {
         this.state = {
             status: '',
         };
-        this.getPRStatus = this.getPRStatus.bind(this)
+        this.getPRStatus = this.getPRStatus.bind(this);
     };
 
     componentDidMount() {
